@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body{
             height: 97vh;
-            background-color: black;
+            /*background-color: black;
             background-image:  url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
 
+            /* shorthand - backgound
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed ;
+            background-attachment: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +34,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio, inventore facilis, vero voluptatem iste fugit veniam adipisci maxime quia aperiam sit provident molestias nostrum dolor, pariatur exercitationem? Nostrum, aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero odit vitae beatae saepe eaque inventore autem voluptates sed nihil quia a, odio fugiat dolor vel culpa, quae placeat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum cupiditate placeat dolore deleniti beatae suscipit sint, repellat error ratione quaerat dolor! Possimus dolorem natus consequatur vitae. Perferendis, asperiores repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio, inventore facilis, vero voluptatem iste fugit veniam adipisci maxime quia aperiam sit provident molestias nostrum dolor, pariatur exercitationem? Nostrum, aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero odit vitae beatae saepe eaque inventore autem voluptates sed nihil quia a, odio fugiat dolor vel culpa, quae placeat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum cupiditate placeat dolore deleniti beatae suscipit sint, repellat error ratione quaerat dolor! Possimus dolorem natus consequatur vitae. Perferendis, asperiores repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio, inventore facilis, vero voluptatem iste fugit veniam adipisci maxime quia aperiam sit provident molestias nostrum dolor, pariatur exercitationem? Nostrum, aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero odit vitae beatae saepe eaque inventore autem voluptates sed nihil quia a, odio fugiat dolor vel culpa, quae placeat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum cupiditate placeat dolore deleniti beatae suscipit sint, repellat error ratione quaerat dolor! Possimus dolorem natus consequatur vitae. Perferendis, asperiores repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio, inventore facilis, vero voluptatem iste fugit veniam adipisci maxime quia aperiam sit provident molestias nostrum dolor, pariatur exercitationem? Nostrum, aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero odit vitae beatae saepe eaque inventore autem voluptates sed nihil quia a, odio fugiat dolor vel culpa, quae placeat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum cupiditate placeat dolore deleniti beatae suscipit sint, repellat error ratione quaerat dolor! Possimus dolorem natus consequatur vitae. Perferendis, asperiores repellat!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio, inventore facilis, vero voluptatem iste fugit veniam adipisci maxime quia aperiam sit provident molestias nostrum dolor, pariatur exercitationem? Nostrum, aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero odit vitae beatae saepe eaque inventore autem voluptates sed nihil quia a, odio fugiat dolor vel culpa, quae placeat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum cupiditate placeat dolore deleniti beatae suscipit sint, repellat error ratione quaerat dolor! Possimus dolorem natus consequatur vitae. Perferendis, asperiores repellat!</p>
     </main>
 </body>
